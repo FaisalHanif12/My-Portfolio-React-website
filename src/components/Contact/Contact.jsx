@@ -47,12 +47,16 @@ const Contact = () => {
 
     return(
         <Container style={{paddingTop: '50px'}} >
-            <Row >
+            <Row  style={{marginLeft :-20}}>
             <Col md={6} className="c-left" >
             <h1 >Get in Touch</h1>
             <h1 className="yellow">Contact me</h1>
+            <h3 className="yellow"   style={{marginTop : 20, marginLeft : -20}}>Email : </h3>
+            <h5  style={{marginTop : 20, marginLeft : -20}} >mehrfaisal111@gmail.com</h5>
+            <h3 className="yellow"   style={{marginTop : 20, marginLeft : -10}}>Phone Number:</h3>
+            <h5  style={{marginTop : 20, marginLeft : 7 , marginBottom : 25}} >+923148166354</h5>
             </Col>
-            <Col md={6} className="c-right">
+            <Col md={6} className="c-right" style={{marginTop:30}}>
                 <form ref={form} onSubmit={sendEmail}>
                 <input type="text" name="from_name" className="user"  placeholder="Name" onChange={handleChange}/>
                 <input type="email" name="reply_to" className="user" placeholder="Email" onChange={handleChange} />

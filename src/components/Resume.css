@@ -1,0 +1,6 @@
+/* Add this CSS in your stylesheet or <style> tag */
+@media (max-width: 500px) {
+    img {
+      max-width: 100%;    /* Change the max-width to 100% for smaller screens */
+    }
+  }

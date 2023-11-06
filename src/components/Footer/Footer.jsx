@@ -25,7 +25,7 @@ const Footer = () => {
             <ul className="footer-icons">
               <li className="social-icons">
                 <a
-                  href="https://github.com/19sajib"
+                  href="https://github.com/FaisalHanif12"
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
@@ -34,20 +34,10 @@ const Footer = () => {
                   <AiFillGithub />
                 </a>
               </li>
+             
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/19sajib"
-                  style={{ color: "white" }}
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  aria-label="twitter"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/19sajib/"
+                  href="https://www.linkedin.com/in/muhammad-faisal-hanif-5b7a00247"
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
@@ -58,7 +48,7 @@ const Footer = () => {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/19sajib"
+                  href="https://www.instagram.com/faisal_hanif_0"
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"

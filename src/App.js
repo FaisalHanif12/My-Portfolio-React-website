@@ -11,6 +11,7 @@ import Skill from './pages/Skillset'
 import Project from './pages/Projects'
 import Resume from './pages/Resume'
 import Contact from './pages/Contact'
+import Achievements from './pages/Achievements'
 
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
@@ -36,13 +37,14 @@ function App() {
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
-        <Navbar />
+        <Navbar/>
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/skillset" element={<Skill />} />
+          <Route path="/skillset" element={<Skill/>} />
+          <Route path="/resume" element={<Resume/>} />
           <Route path="/project" element={<Project />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route path="/Achievements" element={<Achievements />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>

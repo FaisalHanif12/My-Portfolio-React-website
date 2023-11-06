@@ -22,7 +22,7 @@ const Social = () => {
                 <ul className="contact-social-links">
                   <li className="contact-icons">
                     <a
-                      href="https://github.com/19sajib"
+                      href="https://github.com/FaisalHanif12"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-color  contact-social-icons"
@@ -30,19 +30,10 @@ const Social = () => {
                       <AiFillGithub />
                     </a>
                   </li>
+                 
                   <li className="contact-icons">
                     <a
-                      href="https://twitter.com/19sajib"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-color  contact-social-icons"
-                    >
-                      <AiOutlineTwitter />
-                    </a>
-                  </li>
-                  <li className="contact-icons">
-                    <a
-                      href="https://www.linkedin.com/in/19sajib/"
+                      href="https://www.linkedin.com/in/muhammad-faisal-%E2%9C%85-frontend-developer-5b7a00247/"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-color  contact-social-icons"
@@ -52,7 +43,7 @@ const Social = () => {
                   </li>
                   <li className="contact-icons">
                     <a
-                      href="https://www.instagram.com/19sajib"
+                      href="https://www.instagram.com/faisal_hanif_0"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-color contact-social-icons"
